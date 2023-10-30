@@ -127,7 +127,7 @@ button {
 /* PROMO */
 
 .promo {
-    padding-top: 200px;
+    padding-top: 15%;
     height: 100vh;
 }
 
@@ -172,9 +172,9 @@ button {
 }
 
 .promo-btn-box p {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.842);
     color: white;
-    padding: 24.1px;
+    padding: 24.5px;
 }
 
 .promo-btn-box:hover .promo-btn {
@@ -322,6 +322,9 @@ button {
     color: #585858;
 }
 
+.receipts {
+    margin-bottom: 120px;
+}
 
 .receipts__item {
     width: 440px;
@@ -437,7 +440,7 @@ button {
     align-items: end;
 }
 
-.receipts-btn-discount{
+.receipts-btn-discount {
     font-size: 11px;
     text-transform: uppercase;
     padding: 10px;
@@ -448,7 +451,8 @@ button {
     background-color: #FF6915;
     color: white;
 }
-.receipts-btn-hit{
+
+.receipts-btn-hit {
     font-size: 11px;
     text-transform: uppercase;
     padding: 10px;
@@ -459,6 +463,7 @@ button {
     background-color: #4296C3;
     color: white;
 }
+
 .color-green {
     background-color: #64E1CB;
 }
@@ -472,3 +477,249 @@ button {
 }
 
 /* receipts-end */
+
+
+/* sold  */
+
+.sold {
+    margin-bottom: 150px;
+}
+
+.sold__item {
+    width: 440px;
+    height: 586px;
+    padding: 20px;
+    border: 2px solid #58585838;
+    border-radius: 20px;
+}
+
+.sold-btn {
+    padding: 10px;
+    margin-bottom: 100px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.sold-icon:hover {
+    transform: translate3d(-3px, -3px, 0);
+}
+
+.sold__item-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sold__item-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 60px;
+}
+
+.sold__item-info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sold-item-title {
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #585858;
+}
+
+.sold-item-model {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.sold-item-color {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2E2E2E;
+    display: flex;
+    align-items: center;
+}
+
+.sold-item-color-box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.sold-item-color-box a {
+    width: 15px;
+    border-radius: 100%;
+    height: 15px;
+}
+
+
+.sold__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.sold-item-price {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.sold-main-img {
+    width: 361px;
+    height: 173px;
+}
+
+.sold-item-price span {
+    font-size: 15px;
+    color: #999999;
+    text-decoration: line-through;
+}
+
+.sold__item-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.sold-btn-discount {
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 100px;
+    width: 46px;
+    height: 32px;
+    border: none;
+    background-color: #FF6915;
+    color: white;
+}
+
+.sold-btn-hit {
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 46px;
+    height: 32px;
+    margin-bottom: 100px;
+    border: none;
+    background-color: #4296C3;
+    color: white;
+}
+
+.sold-title {
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+/* sold-end */
+
+
+/* season */
+
+.season {
+    width: 1500px;
+    height: 618px;
+    margin: 0 auto;
+    background-color: #1E1E1E;
+    margin-bottom: 150px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../media/season/кросовок.png');
+    color: white;
+    padding-top: 110px;
+
+}
+
+.season-btn {
+    background-color: #FF6915;
+    color: white;
+}
+
+.season-btn-box {
+    display: flex;
+    align-items: center;
+}
+
+.season-btn-box p {
+    background-color: #FB5A00;
+    color: white;
+    padding: 24.1px;
+}
+
+.season-btn-box:hover .season-btn {
+    background-color: #FB5A00;
+}
+
+.btn-item {
+    cursor: pointer;
+}
+
+.season-btn-box:hover .btn-item {
+    background-color: #FF6915;
+}
+
+.season-title {
+    color: white;
+    font-size: 59px;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+
+.season-subtitle {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 34px;
+}
+
+.season-price span {
+    font-size: 22px;
+}
+
+.season-price {
+    color: white;
+    margin-bottom: 22px;
+}
+
+.season-title::after {
+    content: '';
+    border-top: 2px solid #ffffff;
+    display: inline-block;
+    width: 123px;
+    height: 2px;
+    margin-left: 140px;
+}
+
+.season__content {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+
+
+.season-main-box img {
+    position: relative;
+    width: 600px;
+    height: 500px;
+}
+.season__main{
+    line-height: 29px;
+    font-size: 18px;
+    font-weight: 100;
+    gap: 10px;
+    display: flex;
+    align-items: start;
+}
+.season-main-plus{
+    font-size: 20px;
+}
+/* season-end */
