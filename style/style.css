@@ -21,7 +21,9 @@ button {
 /* HEADER  */
 
 /* HEADER-TOP */
-
+.btn-login,.btn-reg{
+    color: #1E1E1E;
+}
 
 .btn-login::after {
     content: '/';
@@ -142,12 +144,14 @@ button {
     font-size: 18px;
     font-weight: 400;
     width: 500px;
+    color: black;
     height: 87px;
     margin-bottom: 20px;
 }
 
 .promo-price {
     font-size: 16px;
+    color: black;
     margin-bottom: 20px;
 }
 
@@ -216,6 +220,7 @@ button {
     margin-top: 20px;
     padding: 20px;
     border: 2px solid #58585838;
+    color: black;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -237,6 +242,7 @@ button {
 }
 
 .advantages__items {
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -419,6 +425,7 @@ button {
 }
 
 .receipts-item-price {
+    color: black;
     font-size: 19px;
     font-weight: 700;
 }
@@ -723,3 +730,207 @@ button {
     font-size: 20px;
 }
 /* season-end */
+
+/* public */
+.public{
+    margin-bottom: 90px;
+
+}
+.public__item{
+    width: 670px;
+    height: 461px;
+}
+.public__item button{
+    border: none;
+    background-color: DBE5EB;
+    padding: 10px 16px;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+.item-left{
+    background-image: url('../media/public/Rectangle\ 29.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.public-item-content{
+    padding: 40px;
+}
+.item-title{
+    font-size: 27px;
+    padding-bottom: 120px;
+    color: white;
+    line-height: 36px;
+}
+.item-text{
+    display: flex;
+    align-items: start;
+    color: white;
+    padding-bottom: 23px;
+    line-height: 29px;
+}
+.item-data{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    color: white;
+}
+
+.item-data a{
+    color: white;
+    font-size: 18px;
+}
+.item-data a:hover{
+    color: #FB5A00;
+}
+.item-data a::after{
+    content: '';
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    border-bottom: 2px solid white;
+}
+.public__items{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.item-right{
+    background-image: url('../media/public/Rectangle\ 29-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+
+.item-left::after{
+    content: '';
+    width: 280px;
+    display: inline-block;
+    padding-top: 60px;
+    border-bottom: 3px solid #FF6915;
+}
+/* public-end */
+
+
+/* collection */
+
+.collection__item-left{
+    background-image: url('../media/collection/Rectangle\ 15.png');
+}
+.collection__item-right{
+    background-image: url('../media/collection/Rectangle\ 16.png');
+}
+.collection{
+    margin-bottom: 150px;
+}
+.collection__items{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.collection-text{
+    color: white;
+}
+.collection__item p{
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 490px;
+}
+.collection__item a{
+    font-size: 18px;
+}
+.collection__item a:hover{
+    color: #FB5A00;
+}
+.collection__item a::after{
+    content: '';
+    width: 155px;
+    display: block;
+    margin-top: 20px;
+    border-bottom: 2px solid white;
+}
+.collection__item{
+    width: 670px;
+    height: 736px;
+    padding: 40px;
+}
+/* collection-end */
+
+/* footer  */
+.footer{
+    background-color: #1E1E1E;
+    height: 375px;
+    padding: 40px;
+}
+.contact-box{
+    display: flex;
+    gap: 10px;
+}
+.logo-box{
+    display: flex;
+    align-items: start;
+    text-transform: uppercase;
+    gap: 10px;
+    font-size: 24px;
+    margin-bottom: 55px;
+}
+.footer__items{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.footer__nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer__nav p{
+    color: #707070;
+    text-transform: uppercase;
+}
+.footer__nav a{
+    color: white;
+}
+.logo-box span{
+    color: black;
+    text-shadow: 1px 0 1px #FF6915, 
+    0 1px 1px #FF6915, 
+    -1px 0 1px #FF6915, 
+    0 -1px 1px #FF6915;
+}
+.form{
+    display: flex;
+}
+.form-btn{
+    padding: 18px;
+    background-color: transparent;
+    border: 1px solid #D8DDE4;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.form button{
+    color: #FB5A00;
+}
+.poli{
+    color: #707070;
+    font-size: 13px;
+}
+.footer__bottom{
+    display: flex;
+    gap: 200px;
+}
+.footer__bottom p,a{
+    color: white;
+}
+
+.footer__bottom-text{
+    font-size: 13px;
+}
+.footer__bottom-link{
+    font-size: 13px;
+}
+.footer a:hover{
+    transform: tra;
+}
+
+/* footer-end */
